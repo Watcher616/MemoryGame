@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+ 
+img{
+
+height: 100px ;
+width: 100px;
+background-color: aqua;
+border-radius: 15px;
+border-right: 7px solid rgb(6, 6, 94);
+border-bottom: 7px solid rgb(6, 6, 94);
+
+}
+
+
+img:hover{
+    
+background-color:  rgba(132, 214, 214, 0.596);
+
+border-right: 7px solid   rgb(6, 6, 94);
+border-bottom: 7px solid  rgb(6, 6, 94);
+ 
+
+
+
+}
+
+#grid{
+   /* display: flex;
+    flex-wrap: wrap;
+    padding: 5px 0 5px 0;
+
+    justify-content: center;
+    background-color: blue;
+    align-content: center;
+   border: 3px solid black; */
+
+   
+   padding-top: 10px;
+   padding-bottom: 10px;
+   
+
+    width: 30.5%;
+    margin-left: 34%;
+    border-radius: 10px ;
+    display: grid;
+    
+    grid-template-columns: .1fr .1fr .1fr .1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+body{
+    text-align: center;
+
+    margin: -1.5px;
+    background-color: aquamarine;
+    font-family: Smooch;
+    box-sizing: border-box;
+    position: relative;
+    
+    
+}
+
+*{
+    
+    box-sizing: border-box;
+    
+
+}
+
+.message-div{
+    text-align: center;
+    margin: 0 10px 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(to bottom, rgb(217, 255, 0), rgb(152, 243, 5), rgb(23, 235, 4));  
+    border-radius: 10px;
+
+    width: 40%;
+    margin-left: 29.5%;
+}
+
+p{
+     font-size: 30px;
+     font-weight: bold;
+     font-family: 'Courier New', Courier, monospace; 
+     text-transform: uppercase;
+     color: rgba(21, 11, 168, 0.966);
+     
+}
+
+h1{
+    color: green;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(32, 30, 30);
+    border: 1px solid black;
+    margin-top: -5px;
+}
+
+span{
+    color: blue;
+    
+}
+
+#ching{
+    color: chocolate;
+}
+#result{
+    color: rgb(36, 34, 34);
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+}
+
+#score{
+    color: rgba(7, 7, 165, 0.76);
+    font-weight: bolder;
+    position: static;
+    margin-top: -6px;
+    
+}
+h3{
+    color: rgba(21, 11, 168, 0.966);
+     
+}
+
+
+#your-live{
+    color: rgba(7, 7, 165, 0.76);
+    font-weight: bolder;
+    position: static;
+    margin-top: -6px;
+}
+
+#lives{
+    color: rgb(36, 34, 34);
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+}
+
+
+
+
+
+@media only screen and (max-width:780px){
+ 
+    img{
+
+        height: 70px ;
+        width: 70px;
+        background-color: aqua;
+        border-radius: 10px;
+        border-right: 4px solid rgb(6, 6, 94);
+        border-bottom: 4px solid rgb(6, 6, 94);
+             
+        
+        }
+        img:hover{
+    
+            
+            
+            border-right: 4px solid   rgb(6, 6, 94);
+            border-bottom: 4px solid  rgb(6, 6, 94);
+            
+            
+            }
+        
+        #grid{
+        
+        
+           /* display: flex;
+            flex-wrap: wrap;
+            padding: 5px 0 5px 0;
+        
+            justify-content: center;
+            background-color: blue;
+            align-content: center;
+           border: 3px solid black; */
+            padding: 5px 0 5px 0;
+            background-color: transparent;
+            display: grid;
+            justify-items: center;
+            align-content: center;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: .1fr .1fr;
+
+            width: 100%;
+            margin: 0 5px 0 1px;
+            gap: 0;
+        }
+        body{
+            text-align: center;
+        
+            margin: -1.5px;
+            background-color: aquamarine;
+            font-family: Smooch;
+            box-sizing: border-box;
+            box-sizing: border-box;
+            position: relative;
+            
+        }
+        
+        *{
+            
+            box-sizing: border-box;
+        
+        }
+        
+        .message-div{
+            text-align: center;
+            margin: 30px 10px 20px 10px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            background: linear-gradient(to bottom, rgb(217, 255, 0), rgb(152, 243, 5), rgb(23, 235, 4));  
+            border-radius: 10px;
+
+            width: 96%;
+        }
+        
+        p{
+             font-size: 30px;
+             font-weight: bold;
+             font-family: 'Courier New', Courier, monospace; 
+             text-transform: uppercase;
+             color: rgba(21, 11, 168, 0.966);
+             
+        }
+        
+        h1{
+            color: green;
+            font-weight: bold;
+            border-bottom: 3px solid rgb(32, 30, 30);
+        }
+        
+        span{
+            color: blue;
+            
+        }
+        
+        #ching{
+            color: chocolate;
+        }
+        #result{
+            color: rgb(36, 34, 34);
+            border-bottom: 1px solid black;
+            text-transform: uppercase;
+        }
+        
+        #score{
+            color: rgba(7, 7, 165, 0.76);
+            font-weight: bolder;
+            position: static;
+            
+        }
+        h3{
+            color: rgba(21, 11, 168, 0.966);
+             
+        }
+    }
