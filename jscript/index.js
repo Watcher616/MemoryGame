@@ -141,7 +141,7 @@ function checkMatch(){
  function checklives(){
     if(lives === 0){
         gridDisplay.setAttribute('style', 'display: none')
-        message.innerHTML ="game over"
+        message.innerHTML = `Game over Score: ${score}`
         const button = document.createElement('button')
         button.setAttribute("type", "button")
         button.setAttribute("id", "button")
