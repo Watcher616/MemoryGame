@@ -142,7 +142,11 @@ h3{
     text-transform: uppercase;
 }
 
+#message-div{
+    display: flex;
+    flex-direction: row;
 
+}
 
 
 
